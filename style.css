@@ -362,3 +362,12 @@ img {
     transform: scale(1.2);
     color: var(--blanco); 
 }
+.container-main-lista {
+    display: flex;
+    flex-direction: column;
+}
+.container-lista {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
